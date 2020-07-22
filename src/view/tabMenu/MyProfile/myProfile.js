@@ -213,7 +213,7 @@ class MyProfile extends Component {
                       </TouchableOpacity>
                   </View>
                   <View style={myprofilestyles.signUpButtonArea}>
-                      <TouchableOpacity style={profileStyles.profileTouchable}  onPress={() => Linking.openURL('mailto:hello@hyreapp.co.uk') }>
+                      <TouchableOpacity style={profileStyles.profileTouchable}  onPress={() => Linking.openURL('mailto:hello@sanrnapp.co.uk') }>
                         <View style={ profileStyles.navigateSection }>
                           <View style={ profileStyles.navigateIconSection }>
                             <Image source={require('./images/help-feedback.png')} style={{ width: 22.97, height: 24 }}></Image>  

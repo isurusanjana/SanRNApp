@@ -36,11 +36,6 @@ export default class Subscription extends Component {
                         textContent={'Loading...'}
                         textStyle={profileStyles.spinnerTextStyle}
                     />        
-                    {/* <CustomHeader
-                        goBack={goBack.bind(this)}
-                        headerTitle={'Unlock Hyre'}
-                        titleFontSize={15}
-                    /> */}
                     <View style={{ flexDirection: 'row', paddingHorizontal: 5, height: (Dimensions.get('window').height) * 0.1}}>
                         <View style={{ flex: 1, justifyContent: 'center' }}>                            
                             <TouchableOpacity onPress={() => { goBack(); }}>
@@ -48,7 +43,7 @@ export default class Subscription extends Component {
                             </TouchableOpacity>                                            
                         </View>
                         <View style={{ flex: 2, justifyContent: 'center', }}>
-                            <Text style={{textAlign: 'center', fontSize: 14, color: '#142828',fontFamily: Fonts.Rubik, paddingRight: 15,}}>Unlock Hyre</Text>
+                            <Text style={{textAlign: 'center', fontSize: 14, color: '#142828',fontFamily: Fonts.Rubik, paddingRight: 15,}}>Unlock San</Text>
                         </View> 
                         <View style={{ flex: 1,}}></View>                   
                     </View>

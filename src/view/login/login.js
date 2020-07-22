@@ -50,10 +50,6 @@ export default class Login extends Component {
         this.state = {
             userEmail: '',
             password: '',
-            // userEmail: 'emamichell11@gmail.com',
-            // password: 'Test@123',
-            // userEmail: 'saghirmhussain@gmail.com',
-            // password: '123456',
             spinner: true,
             imageExists: false
         };

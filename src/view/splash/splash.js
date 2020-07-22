@@ -141,10 +141,10 @@ export default class Splash extends Component {
             // await AsyncStorage.multiGet(["user_id"]).then(response => {console.warn('hhhh:', response);this.setState({"userId" : response[0][1]});});
             setTimeout(async () => {
 
-                var regexpJobView = /^((app):\/\/(hyreapp)\/(job)\/\d+)?$/;
-                var regexpSignIn = /^((app):\/\/(hyreapp)\/(signin))?$/;
-                var regexpJobSearch = /^((app):\/\/(hyreapp)\/(search))?$/;
-                var regexpMessage = /^((app):\/\/(hyreapp)\/(message))?$/;
+                var regexpJobView = /^((app):\/\/(sanrnapp)\/(job)\/\d+)?$/;
+                var regexpSignIn = /^((app):\/\/(sanrnapp)\/(signin))?$/;
+                var regexpJobSearch = /^((app):\/\/(sanrnapp)\/(search))?$/;
+                var regexpMessage = /^((app):\/\/(sanrnapp)\/(message))?$/;
 
                 this.setState({alreadyIn: true});
                 if (url == null || url == undefined) {
@@ -245,10 +245,10 @@ export default class Splash extends Component {
         // await AsyncStorage.setItem('accessToken', '0');
         if(this.state.alreadyIn == false) {
         
-            var regexpJobView = /^((app):\/\/(hyreapp)\/(job)\/\d+)?$/;
-            var regexpSignIn = /^((app):\/\/(hyreapp)\/(signin))?$/;
-            var regexpJobSearch = /^((app):\/\/(hyreapp)\/(search))?$/;
-            var regexpMessage = /^((app):\/\/(hyreapp)\/(message))?$/;
+            var regexpJobView = /^((app):\/\/(sanrnapp)\/(job)\/\d+)?$/;
+            var regexpSignIn = /^((app):\/\/(sanrnapp)\/(signin))?$/;
+            var regexpJobSearch = /^((app):\/\/(sanrnapp)\/(search))?$/;
+            var regexpMessage = /^((app):\/\/(sanrnapp)\/(message))?$/;
 
             this.setState({alreadyIn: true});
             if (this.state.userId == 0 || this.state.userId == null || this.state.userId == undefined) {
